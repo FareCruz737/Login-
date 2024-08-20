@@ -1,0 +1,42 @@
+#mover{
+height: 650px;
+width: 500px;
+background-color: black;
+
+position: absolute;
+left: 799px;
+border-radius: 0px 40px 40px 0px;
+transition: left 0.5s ease;
+ /* Definir transición */
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-image: url(../img/tao-yuan-IVC4c_Gu0jA-unsplash\ \(1\).jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+
+.button_hijo > button{
+padding: 20px 70px;
+font-size: 20px;
+font-weight: 700;
+border-radius: 30px;
+border: none;
+cursor: pointer;
+transition-duration: 0.3s;
+background-color: white;
+color: black;
+
+}
+
+.barco{
+position: relative;
+bottom: 300px;
+left: 50px;
+}
+
+.barco > img{
+height: 200px; 
+}
